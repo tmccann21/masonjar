@@ -1,0 +1,147 @@
+/*
+  Palette
+  #00d0d2
+  #89dede
+  #c6efef
+  #f4fcfc
+  
+  #000
+  #fff
+ */
+
+body {
+  width: 220px;
+  padding: 3px 3px 3px 3px;
+  margin: 0;
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+h2 {
+  margin: 0;
+  text-align: center;
+}
+
+#content {
+  background-color:	#f6f6f6;
+  min-width: 100%;
+  max-width: 100%;
+}
+
+#room-input {
+  width: 215px;
+  height: 25px;
+  text-align: center;
+  line-height: 25px;
+  font-size: 20px;
+  margin-bottom: 0.1em;
+}
+
+#join-room-btn {
+  background-color:#00d0d2;
+  width:100%;
+  height: 40px;
+  font-size: 18px;
+}
+
+#join-room-btn:hover, #join-room-btn:focus {
+  background-color: #01b8bb;
+}
+
+#create-room-btn {
+  background-color:#1481ff;
+  width:100%;
+  height: 40px;
+  font-size: 18px;
+}
+
+#create-room-btn:hover, #create-room-btn:focus {
+  background-color: #126dd6;
+}
+
+#leave-room-btn {
+  background-color:#bd3434;
+  width:100%;
+  height: 30px;
+  font-size: 14px;
+}
+
+#leave-room-btn:hover, #leave-room-btn:focus {
+  background-color: #8a2525;
+}
+
+#start-watching-btn {
+  background-color:#00d0d2;
+  width:100%;
+  height: 30px;
+  font-size: 14px;
+  margin-bottom: 3px;
+}
+
+#start-watching-btn:hover, #start-watching-btn:focus {
+  background-color: #01b8bb;
+}
+
+#start-watching-btn:disabled {
+  background-color: #b6b6b6;
+}
+
+#start-watching-btn:disabled:hover, #start-watching-btn:disabled:focus {
+  background-color: #9c9c9c;
+}
+
+#stop-watching-btn {
+  background-color:#bd3434;
+  width:100%;
+  height: 30px;
+  font-size: 14px;
+}
+
+#stop-watching-btn:hover, #leave-room-btn:focus {
+  background-color: #8a2525;
+}
+
+#open-video-controls {
+  display:flex;
+  margin-bottom: 3px;
+}
+
+#open-video-btn {
+  background-color:#00d0d2;
+  max-width:50%;
+  height: 30px;
+  font-size: 12px;
+  margin-right: 2px;
+}
+
+#open-video-btn:hover, #open-video-btn:focus {
+  background-color: #01b8bb;
+}
+
+#copy-link-btn {
+  background-color:#00d0d2;
+  max-width:50%;
+  height: 30px;
+  font-size: 12px;
+}
+
+#copy-link-btn:hover, #open-video-btn:focus {
+  background-color: #01b8bb;
+}
+
+
+.btn-square {
+  cursor: pointer;
+  border-radius:0.15em;
+  box-sizing: border-box;
+  text-decoration:none;
+  text-transform:uppercase;
+  font-weight:400;
+  color:#FFFFFF;
+  box-shadow:inset 0 -0.6em 0 -0.35em rgba(0,0,0,0.17);
+  text-align:center;
+  width:100%;
+}
+
+.isHidden {
+  display: none !important;
+}

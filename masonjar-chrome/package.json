@@ -1,0 +1,29 @@
+{
+  "name": "watch-chrome",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/chrome": "0.0.93",
+    "@types/jsdom": "^16.2.0",
+    "@types/node": "^13.7.0",
+    "copy-webpack-plugin": "^6.2.0",
+    "terser-webpack-plugin": "^4.2.3",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.5",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  },
+  "scripts": {
+    "dev": "webpack --config webpack.dev.config.js --watch",
+    "build:local": "rm -rf dev && webpack --config webpack.dev.config.js",
+    "build:prod": "rm -rf dist && webpack --config webpack.prod.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "jsdom": "^16.2.2"
+  }
+}

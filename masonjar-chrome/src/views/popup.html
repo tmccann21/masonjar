@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href='https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap' rel='stylesheet'>
+    <link rel='stylesheet' href='./style.css'>
+    <script src='../popup.js'></script>
+  </head>
+  <body>
+    <div id='join-view'>
+      <input id='room-input' placeholder='Room Code' type='text' spellcheck='false' maxlength='6' valid=false>
+      <br>
+      <button id='join-room-btn' class='btn-square'> join </button>
+      <button id='create-room-btn' class='btn-square'> create </button>
+    </div>
+    <div id='room-view'>
+      <h2 id='room-id'> you are in room # </h2>
+
+      <p id='waiting-for-host'> waiting for the host to choose a video </p>
+      <div id='open-video-controls'>
+        <button id='open-video-btn' class='btn-square'> open video </button>
+        <button id='copy-link-btn' class='btn-square'> copy url </button>
+      </div>
+    
+
+      <button id='start-watching-btn' class='btn-square' disabled> start watching </button>
+      <button id='stop-watching-btn' class='btn-square'> stop watching </button>
+      <button id='leave-room-btn' class='btn-square'> leave room </button>
+    </div>
+  </body>
+</html>
